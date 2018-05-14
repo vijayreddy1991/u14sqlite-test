@@ -1,0 +1,14 @@
+language: none
+
+services:
+   - sqlite
+
+build:
+  pre_ci_boot:
+    image_name: drydock/u14all
+    image_tag: master
+    pull: true
+    
+    
+  ci:
+    - sqlite3 --version
