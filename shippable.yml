@@ -1,7 +1,7 @@
 language: none
 
 services:
-   - sqlite3
+   - sqlite
 
 build:
   pre_ci_boot:
